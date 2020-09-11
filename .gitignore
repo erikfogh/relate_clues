@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#Defined for this project (Relate_clues)
+steps/
+relate_v1.1.2_x86_64_dynamic/
+.gwf/
+relate_test/
