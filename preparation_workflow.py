@@ -106,4 +106,4 @@ removal = gwf.target_from_template(
 	dir = haps_sample_dir
 )
 
-print(prep_list)
+print(prep_list[0])
