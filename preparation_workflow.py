@@ -6,6 +6,7 @@ from groups import Group
 
 gwf = Workflow()
 
+#Associated variables and setup which can be added to environment variable instead.
 path_to_relate = "/faststorage/home/eriks/relate-clues/relate_v1.1.2_x86_64_dynamic/"
 path_to_vcfs = "/faststorage/project/simons/data/1000Genomes/"
 path_to_ancestor = "/faststorage/project/simons/data/1000Genomes/ancestral_alignmens/human_ancestor_GRCh37_e59/"
