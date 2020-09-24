@@ -133,3 +133,4 @@ steps/
 relate_v1.1.2_x86_64_dynamic/
 .gwf/
 relate_test/
+data/depth_chr_masks/
