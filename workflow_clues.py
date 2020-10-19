@@ -45,8 +45,8 @@ def relate_clues(chunk, chunk_count, script, number, out_dir, pop_inf, input_dir
         "walltime": "3:00:00"
     }
     spec = """
-    python {} 
-    """.format(script)
+    python {} {} {} -o {} -p {} -
+    """.format(script, chunk, chunk_count, )
     print(spec)
     #return AnonymousTarget(inputs=inputs, outputs=outputs, options=options, spec=spec)
 
