@@ -130,6 +130,8 @@ dmypy.json
 
 #Defined for this project (Relate_clues)
 steps/
+clues/
+results/
 relate_v1.1.2_x86_64_dynamic/
 .gwf/
 relate_test/

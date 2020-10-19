@@ -40,12 +40,13 @@ def full_relate(number, genetic_map, out_dir, pop_inf, prep_dir, relate_path):
     options = {
         "cores": 10,
         "memory": "30g",
-        "walltime": "6:00:00"
+        "walltime": "8:00:00"
     }
     spec = """
     cd {}
     {} --mode All -m {} -N {} --haps {} --sample {} --map {} -o {} --annot {} --dist {} --memory 23
     """.format(out_dir, Relate, m, n, haps, sample, genetic_map, o, annot,  dist)
+    print(spec)
     return AnonymousTarget(inputs=inputs, outputs=outputs, options=options, spec=spec)
 
 
@@ -59,8 +60,8 @@ def estimate_pop_size(number, out_dir, pop_inf, prep_dir, relate_path):
     poplabels = prep_dir+"chrom{}.poplabels".format(number)
     options = {
         "cores": 10,
-        "memory": "20g",
-        "walltime": "15:00:00"
+        "memory": "30g",
+        "walltime": "20:00:00"
     }
     spec = """
     {} -i {} -m {} --poplabels {} -o {} --threshold 0 --num_iter 5
@@ -68,9 +69,9 @@ def estimate_pop_size(number, out_dir, pop_inf, prep_dir, relate_path):
     return AnonymousTarget(inputs=inputs, outputs=outputs, options=options, spec=spec)
 
 
-def detect_selection(number, out_dir, pop_inf, prep_dir, relate_path):
-    i = out_dir+"chrom{}_popsize.coal".format(number)
-    o = out_dir+"chrom{}_selection".format(number)
+def detect_selection(number, in_dir, out_results, pop_inf, prep_dir, relate_path):
+    i = in_dir+"chrom{}_popsize.coal".format(number)
+    o = out_results+"chrom{}_selection".format(number)
     m = pop_inf[0]
     inputs = [i]
     outputs = [o+".freq"]
@@ -108,7 +109,9 @@ def detect_selection(number, out_dir, pop_inf, prep_dir, relate_path):
 for pop in pop_information:
     pop_name = pop[:-10]
     out_dir = "steps/{}_relate/".format(pop_name)
+    out_results = "results/{}_relate/".format(pop_name)
     os.makedirs(out_dir, exist_ok=True)
+    os.makedirs(out_results, exist_ok=True)
     with Group(gwf, suffix=pop_name) as g:
         relate = g.map(full_relate, l_d, name="relate", extra={
             "out_dir": out_dir, "pop_inf": pop_information[pop],
@@ -118,12 +121,10 @@ for pop in pop_information:
             "out_dir": out_dir, "pop_inf": pop_information[pop],
             "prep_dir": path_to_prepared+pop, "relate_path": path_to_relate
         })
-        print(chromosomes, pop_information[pop], out_dir, path_to_prepared+pop, path_to_relate)
         g.map(detect_selection, chromosomes, name="detect_selection", extra={
-            "out_dir": out_dir, "pop_inf": pop_information[pop],
+            "in_dir": out_dir, "out_results": out_results, "pop_inf": pop_information[pop],
             "prep_dir": path_to_prepared+pop, "relate_path": path_to_relate
         })
-        print(pop)
 
 #
 # test_input = gwf.target_from_template(
