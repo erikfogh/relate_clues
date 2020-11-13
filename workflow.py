@@ -9,8 +9,9 @@ path_to_relate = "/faststorage/home/eriks/relate-clues/relate_v1.1.2_x86_64_dyna
 genetic_map = "/faststorage/home/eriks/relate-clues/data/recombination_maps/genetic_map_chr{}_combined_b37.txt"
 genetic_map_x = "/faststorage/home/eriks/relate-clues/data/recombination_maps/genetic_map_chrX_nonPAR_combined_b37.txt"
 path_to_prepared = "/faststorage/home/eriks/relate-clues/steps/"
-pop_information = {"CEU_kept_prepared/": ["1.25e-8", "6000"],
-                   "YRI_kept_prepared/": ["1.25e-8", "15000"]}
+pop_information = {"CEU_kept_prepared/": ["1.25e-8", "32000"],
+                   "YRI_kept_prepared/": ["1.25e-8", "32000"],
+                   "CEU_GBR_YRI_kept_prepared/": ["1.25e-8", "32000"]}
 # "CEU_kept_prepared/": ["1.25e-8", "6000"],, "all_individuals_prepared/": ["1.25e-8", "30000"]  # Due to the larger number of samples, jobs fail with out-of-time or memory.
 # for pop_information: key is name of folder in steps, values are mutation rate and effective population size
 # chromosomes = list(range(1, 23))+["X"]
@@ -40,7 +41,7 @@ def full_relate(number, genetic_map, out_dir, pop_inf, prep_dir, relate_path):
     options = {
         "cores": 10,
         "memory": "30g",
-        "walltime": "8:00:00"
+        "walltime": "12:00:00"
     }
     spec = """
     cd {}
@@ -59,9 +60,9 @@ def estimate_pop_size(number, out_dir, pop_inf, prep_dir, relate_path):
     Relate = os.path.join(relate_path, "scripts/EstimatePopulationSize/EstimatePopulationSize.sh")
     poplabels = prep_dir+"chrom{}.poplabels".format(number)
     options = {
-        "cores": 10,
+        "cores": 15,
         "memory": "30g",
-        "walltime": "20:00:00"
+        "walltime": "24:00:00"
     }
     spec = """
     {} -i {} -m {} --poplabels {} -o {} --threshold 0 --num_iter 5

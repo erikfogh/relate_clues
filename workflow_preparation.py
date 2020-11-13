@@ -19,7 +19,7 @@ haps_sample_dir = "/faststorage/home/eriks/relate-clues/steps/haps_sample"
 
 pop_files = "data/pops/"
 use_all = True
-pop_list = [pop_files+"random250.txt"]  # glob.glob(pop_files + "*.txt")
+pop_list = glob.glob(pop_files + "*.txt")
 
 if use_all is True:
     pop_list.append("all_individuals")
