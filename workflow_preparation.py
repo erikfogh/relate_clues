@@ -8,14 +8,11 @@ gwf = Workflow()
 
 # Associated variables and setup which can be added to environment variable instead.
 path_to_relate = "/faststorage/home/eriks/relate-clues/relate_v1.1.2_x86_64_dynamic/"
-path_to_vcfs = "/faststorage/project/simons/data/1000Genomes/"
-path_to_ancestor = "/faststorage/project/simons/data/1000Genomes/ancestral_alignmens/human_ancestor_GRCh37_e59/human_ancestor_{}.fa"
+path_to_vcfs = "/home/eriks/baboondiversity/data/PG_panu3_phased_chromosomes_4_7_2021/"
+path_to_ancestor = "/home/eriks/baboondiversity/data/ancestral_state_panu3_23_04_2021/papio_anubis_ancestor_{}.fa"
 path_to_poplabels = "data/pops/1000GP_Phase3.sample"
-path_to_mask = "data/depth_chr_masks/20140520.chr{}.strict_mask.fasta"
-maskx = "data/depth_chr_masks/20141020.chrX.strict_mask.fasta"
-genetic_map = "/faststorage/home/eriks/relate-clues/data/recombination_maps/genetic_map_chr{}_combined_b37.txt"
-genetic_map_x = "/faststorage/home/eriks/relate-clues/data/recombination_maps/genetic_map_chrX_nonPAR_combined_b37.txt"
-haps_sample_dir = "steps/haps_sample"
+path_to_mask = "/home/eriks/baboondiversity/data/callability_panu3_26_04_2021/Papio_anubis.Panu_3.0.dna.chromosome.{}.fa"
+genetic_map = "/home/eriks/baboondiversity/data/PG_panu3_recombination_map"
 
 pop_files = "data/pops/"
 use_all = True
