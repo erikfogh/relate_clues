@@ -15,7 +15,7 @@ path_to_mask = "data/depth_chr_masks/20140520.chr{}.strict_mask.fasta"
 maskx = "data/depth_chr_masks/20141020.chrX.strict_mask.fasta"
 genetic_map = "/faststorage/home/eriks/relate-clues/data/recombination_maps/genetic_map_chr{}_combined_b37.txt"
 genetic_map_x = "/faststorage/home/eriks/relate-clues/data/recombination_maps/genetic_map_chrX_nonPAR_combined_b37.txt"
-haps_sample_dir = "/faststorage/home/eriks/relate-clues/steps/haps_sample"
+haps_sample_dir = "steps/haps_sample"
 
 pop_files = "data/pops/"
 use_all = True
