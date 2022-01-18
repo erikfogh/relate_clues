@@ -1,0 +1,228 @@
+ ID POP GROUP SEX
+0 Sci_16066 MikTan "Cynocephalus, Central Tanzania" female
+1 Sci_16098 MikTan "Cynocephalus, Central Tanzania" female
+2 Sci_30877 AbeKen "Anubis, Kenya" male
+3 Sci_30977 AbeKen "Anubis, Kenya" female
+4 Sci_34449 ChuZam "Kindae, Zambia" female
+5 Sci_34474 ChuZam "Kindae, Zambia" female
+6 Sci_38168 cap "Gelada, Captive" male
+7 Sci_97074 AwaEth "Hamadryas, Ethiopia" female
+8 Sci_97124 AwaEth "Hamadryas, Ethiopia" male
+9 PD_0067 cap "Gelada, Captive" male
+10 PD_0199 SerTan "Anubis, Tanzania" female
+11 PD_0200 SerTan "Anubis, Tanzania" female
+12 PD_0201 SerTan "Anubis, Tanzania" male
+13 PD_0202 SerTan "Anubis, Tanzania" male
+14 PD_0203 SerTan "Anubis, Tanzania" female
+15 PD_0204 AruTan "Anubis, Tanzania" male
+16 PD_0205 AruTan "Anubis, Tanzania" female
+17 PD_0206 AruTan "Anubis, Tanzania" female
+18 PD_0207 AruTan "Anubis, Tanzania" male
+19 PD_0208 NgoTan "Anubis, Tanzania" female
+20 PD_0209 NgoTan "Anubis, Tanzania" female
+21 PD_0210 NgoTan "Anubis, Tanzania" female
+22 PD_0211 NgoTan "Anubis, Tanzania" female
+23 PD_0212 NgoTan "Anubis, Tanzania" female
+24 PD_0213 RuaTan "Cynocephalus, Central Tanzania" female
+25 PD_0214 RuaTan "Cynocephalus, Central Tanzania" female
+26 PD_0215 RuaTan "Cynocephalus, Central Tanzania" male
+27 PD_0216 RuaTan "Cynocephalus, Central Tanzania" female
+28 PD_0217 RuaTan "Cynocephalus, Central Tanzania" male
+29 PD_0218 GomTan "Anubis, Tanzania" male
+30 PD_0219 GomTan "Anubis, Tanzania" female
+31 PD_0220 GomTan "Anubis, Tanzania" male
+32 PD_0221 GomTan "Anubis, Tanzania" female
+33 PD_0222 GomTan "Anubis, Tanzania" female
+34 PD_0223 UdzTan "Cynocephalus, Central Tanzania" male
+35 PD_0224 UdzTan "Cynocephalus, Central Tanzania" female
+36 PD_0225 UdzTan "Cynocephalus, Central Tanzania" female
+37 PD_0226 UdzTan "Cynocephalus, Central Tanzania" female
+38 PD_0227 UdzTan "Cynocephalus, Central Tanzania" male
+39 PD_0228 MahTan "Cynocephalus, Western Tanzania" male
+40 PD_0229 MahTan "Cynocephalus, Western Tanzania" male
+41 PD_0230 MahTan "Cynocephalus, Western Tanzania" male
+42 PD_0231 MahTan "Cynocephalus, Western Tanzania" male
+43 PD_0232 MahTan "Cynocephalus, Western Tanzania" female
+44 PD_0233 KatTan "Cynocephalus, Western Tanzania" male
+45 PD_0234 KatTan "Cynocephalus, Western Tanzania" male
+46 PD_0235 SelTan "Cynocephalus, Central Tanzania" male
+47 PD_0236 SelTan "Cynocephalus, Central Tanzania" male
+48 PD_0237 SelTan "Cynocephalus, Central Tanzania" female
+49 PD_0238 LakTan "Anubis, Tanzania" female
+50 PD_0239 LakTan "Anubis, Tanzania" female
+51 PD_0240 LakTan "Anubis, Tanzania" female
+52 PD_0241 LakTan "Anubis, Tanzania" female
+53 PD_0242 LakTan "Anubis, Tanzania" male
+54 PD_0243 TarTan "Anubis, Tanzania" female
+55 PD_0244 TarTan "Anubis, Tanzania" female
+56 PD_0265 TarTan "Anubis, Tanzania" female
+57 PD_0266 TarTan "Anubis, Tanzania" male
+58 PD_0267 TarTan "Anubis, Tanzania" male
+59 PD_0268 MikTan "Cynocephalus, Central Tanzania" male
+60 PD_0269 MikTan "Cynocephalus, Central Tanzania" male
+61 PD_0270 MikTan "Cynocephalus, Central Tanzania" female
+62 PD_0271 MikTan "Cynocephalus, Central Tanzania" female
+63 PD_0272 MikTan "Cynocephalus, Central Tanzania" female
+64 PD_0390 NioSen "Papio, Senegal" female
+65 PD_0391 NioSen "Papio, Senegal" female
+66 PD_0392 NioSen "Papio, Senegal" female
+67 PD_0393 NioSen "Papio, Senegal" female
+68 PD_0394 NioSen "Papio, Senegal" female
+69 PD_0395 NioSen "Papio, Senegal" male
+70 PD_0396 NioSen "Papio, Senegal" male
+71 PD_0397 NioSen "Papio, Senegal" male
+72 PD_0398 NioSen "Papio, Senegal" male
+73 PD_0399 NioSen "Papio, Senegal" male
+74 PD_0400 NioSen "Papio, Senegal" male
+75 PD_0401 NioSen "Papio, Senegal" male
+76 PD_0492 LakTan "Anubis, Tanzania" female
+77 PD_0493 SerTan "Anubis, Tanzania" male
+78 PD_0494 SerTan "Anubis, Tanzania" male
+79 PD_0495 SerTan "Anubis, Tanzania" female
+80 PD_0496 SerTan "Anubis, Tanzania" male
+81 PD_0497 SerTan "Anubis, Tanzania" male
+82 PD_0498 SerTan "Anubis, Tanzania" male
+83 PD_0499 SerTan "Anubis, Tanzania" female
+84 PD_0500 SerTan "Anubis, Tanzania" female
+85 PD_0501 SerTan "Anubis, Tanzania" female
+86 PD_0502 NgoTan "Anubis, Tanzania" male
+87 PD_0503 RuaTan "Cynocephalus, Central Tanzania" female
+88 PD_0504 GomTan "Anubis, Tanzania" male
+89 PD_0505 GomTan "Anubis, Tanzania" male
+90 PD_0506 GomTan "Anubis, Tanzania" female
+91 PD_0507 GomTan "Anubis, Tanzania" female
+92 PD_0508 GomTan "Anubis, Tanzania" male
+93 PD_0509 GomTan "Anubis, Tanzania" female
+94 PD_0637 MikTan "Cynocephalus, Central Tanzania" male
+95 PD_0641 TarTan "Anubis, Tanzania" female
+96 PD_0642 TarTan "Anubis, Tanzania" male
+97 PD_0649 GomTan "Anubis, Tanzania" female
+98 PD_0650 GomTan "Anubis, Tanzania" male
+99 PD_0651 GomTan "Anubis, Tanzania" female
+100 PD_0652 GomTan "Anubis, Tanzania" female
+101 PD_0653 GomTan "Anubis, Tanzania" female
+102 PD_0654 GomTan "Anubis, Tanzania" male
+103 PD_0658 MahTan "Cynocephalus, Western Tanzania" male
+104 PD_0659 MahTan "Cynocephalus, Western Tanzania" female
+105 PD_0662 IssTan "Cynocephalus, Western Tanzania" female
+106 PD_0674 LakTan "Anubis, Tanzania" female
+107 PD_0675 LakTan "Anubis, Tanzania" female
+108 PD_0676 LakTan "Anubis, Tanzania" female
+109 PD_0677 LakTan "Anubis, Tanzania" female
+110 PD_0678 LakTan "Anubis, Tanzania" female
+111 PD_0679 LakTan "Anubis, Tanzania" male
+112 PD_0680 LakTan "Anubis, Tanzania" female
+113 PD_0681 LakTan "Anubis, Tanzania" male
+114 PD_0682 LakTan "Anubis, Tanzania" female
+115 PD_0683 LakTan "Anubis, Tanzania" female
+116 PD_0684 LakTan "Anubis, Tanzania" male
+117 PD_0685 LakTan "Anubis, Tanzania" female
+118 PD_0686 LakTan "Anubis, Tanzania" female
+119 PD_0687 MikTan "Cynocephalus, Central Tanzania" male
+120 PD_0688 MikTan "Cynocephalus, Central Tanzania" male
+121 PD_0689 MikTan "Cynocephalus, Central Tanzania" male
+122 PD_0690 MikTan "Cynocephalus, Central Tanzania" male
+123 PD_0691 MikTan "Cynocephalus, Central Tanzania" male
+124 PD_0692 DenZam "Ursinus, Zambia" male
+125 PD_0693 DenZam "Ursinus, Zambia" female
+126 PD_0694 DenZam "Ursinus, Zambia" female
+127 PD_0695 DenZam "Ursinus, Zambia" female
+128 PD_0696 FilEth "Hamadryas, Ethiopia" male
+129 PD_0697 FilEth "Hamadryas, Ethiopia" male
+130 PD_0698 FilEth "Hamadryas, Ethiopia" female
+131 PD_0699 FilEth "Hamadryas, Ethiopia" male
+132 PD_0700 FilEth "Hamadryas, Ethiopia" female
+133 PD_0701 FilEth "Hamadryas, Ethiopia" female
+134 PD_0702 FilEth "Hamadryas, Ethiopia" male
+135 PD_0703 FilEth "Hamadryas, Ethiopia" male
+136 PD_0704 FilEth "Hamadryas, Ethiopia" male
+137 PD_0705 FilEth "Hamadryas, Ethiopia" male
+138 PD_0706 FilEth "Hamadryas, Ethiopia" male
+139 PD_0707 FilEth "Hamadryas, Ethiopia" male
+140 PD_0708 FilEth "Hamadryas, Ethiopia" female
+141 PD_0709 FilEth "Hamadryas, Ethiopia" male
+142 PD_0710 FilEth "Hamadryas, Ethiopia" female
+143 PD_0711 FilEth "Hamadryas, Ethiopia" male
+144 PD_0712 FilEth "Hamadryas, Ethiopia" male
+145 PD_0713 FilEth "Hamadryas, Ethiopia" male
+146 PD_0714 FilEth "Hamadryas, Ethiopia" male
+147 PD_0715 FilEth "Hamadryas, Ethiopia" male
+148 PD_0716 FilEth "Hamadryas, Ethiopia" male
+149 PD_0717 FilEth "Hamadryas, Ethiopia" male
+150 PD_0718 FilEth "Hamadryas, Ethiopia" male
+151 PD_0719 FilEth "Hamadryas, Ethiopia" male
+152 PD_0720 GogGamEth "Anubis, Ethiopia" male
+153 PD_0721 GogGamEth "Anubis, Ethiopia" female
+154 PD_0722 GogGamEth "Anubis, Ethiopia" male
+155 PD_0723 GogGamEth "Anubis, Ethiopia" male
+156 PD_0724 GogGamEth "Anubis, Ethiopia" female
+157 PD_0725 GogGamEth "Anubis, Ethiopia" male
+158 PD_0726 GogGamEth "Anubis, Ethiopia" female
+159 PD_0727 GogGamEth "Anubis, Ethiopia" male
+160 PD_0728 GogGamEth "Anubis, Ethiopia" male
+161 PD_0729 GogGamEth "Anubis, Ethiopia" male
+162 PD_0730 GogGamEth "Anubis, Ethiopia" female
+163 PD_0731 GogGamEth "Anubis, Ethiopia" male
+164 PD_0732 GogGamEth "Anubis, Ethiopia" male
+165 PD_0733 GogGamEth "Anubis, Ethiopia" male
+166 PD_0734 GogGamEth "Anubis, Ethiopia" male
+167 PD_0735 GogGamEth "Anubis, Ethiopia" male
+168 PD_0736 GogGamEth "Anubis, Ethiopia" female
+169 PD_0737 GogGamEth "Anubis, Ethiopia" female
+170 PD_0738 GogGamEth "Anubis, Ethiopia" female
+171 PD_0739 GogGamEth "Anubis, Ethiopia" male
+172 PD_0740 GogGamEth "Anubis, Ethiopia" male
+173 PD_0741 GogGamEth "Anubis, Ethiopia" male
+174 PD_0742 GogGamEth "Anubis, Ethiopia" male
+175 PD_0743 GogGamEth "Anubis, Ethiopia" male
+176 PD_0744 GogGamEth "Anubis, Ethiopia" female
+177 PD_0745 MikTan "Cynocephalus, Central Tanzania" female
+178 PD_0746 MikTan "Cynocephalus, Central Tanzania" male
+179 PD_0747 MikTan "Cynocephalus, Central Tanzania" male
+180 PD_0748 MikTan "Cynocephalus, Central Tanzania" male
+181 PD_0749 ChuZam "Kindae, Zambia" male
+182 PD_0750 ChuZam "Kindae, Zambia" male
+183 PD_0751 ChuZam "Kindae, Zambia" male
+184 PD_0752 MikTan "Cynocephalus, Central Tanzania" male
+185 PD_0753 MikTan "Cynocephalus, Central Tanzania" male
+186 PD_0754 MikTan "Cynocephalus, Central Tanzania" female
+187 PD_0755 MikTan "Cynocephalus, Central Tanzania" male
+188 PD_0756 MikTan "Cynocephalus, Central Tanzania" male
+189 PD_0757 MikTan "Cynocephalus, Central Tanzania" male
+190 PD_0758 ChuZam "Kindae, Zambia" male
+191 PD_0759 ChuZam "Kindae, Zambia" male
+192 PD_0760 ChuZam "Kindae, Zambia" female
+193 PD_0761 MikTan "Cynocephalus, Central Tanzania" male
+194 PD_0762 MikTan "Cynocephalus, Central Tanzania" male
+195 PD_0763 MikTan "Cynocephalus, Central Tanzania" male
+196 PD_0764 MikTan "Cynocephalus, Central Tanzania" male
+197 PD_0765 MikTan "Cynocephalus, Central Tanzania" female
+198 PD_0766 MikTan "Cynocephalus, Central Tanzania" male
+199 PD_0767 MikTan "Cynocephalus, Central Tanzania" male
+200 PD_0768 MikTan "Cynocephalus, Central Tanzania" male
+201 PD_0769 MikTan "Cynocephalus, Central Tanzania" female
+202 PD_0770 MikTan "Cynocephalus, Central Tanzania" female
+203 PD_0771 MikTan "Cynocephalus, Central Tanzania" male
+204 PD_0772 MikTan "Cynocephalus, Central Tanzania" female
+205 PD_0773 MikTan "Cynocephalus, Central Tanzania" female
+206 PD_0774 MikTan "Cynocephalus, Central Tanzania" female
+207 PD_0775 MikTan "Cynocephalus, Central Tanzania" male
+208 PD_0776 ChuZam "Kindae, Zambia" male
+209 PD_0777 ChuZam "Kindae, Zambia" male
+210 PD_0778 ChuZam "Kindae, Zambia" male
+211 PD_0779 ChuZam "Kindae, Zambia" male
+212 PD_0780 ChuZam "Kindae, Zambia" male
+213 PD_0781 ChuZam "Kindae, Zambia" female
+214 PD_0782 ChuZam "Kindae, Zambia" male
+215 PD_0783 ChuZam "Kindae, Zambia" male
+216 PD_0784 ChuZam "Kindae, Zambia" male
+217 PD_0785 ChuZam "Kindae, Zambia" male
+218 PD_0786 ChuZam "Kindae, Zambia" male
+219 PD_0787 ChuZam "Kindae, Zambia" male
+220 PD_0788 ChuZam "Kindae, Zambia" female
+221 PD_0789 ChuZam "Kindae, Zambia" female
+222 PD_0790 ChuZam "Kindae, Zambia" female
+223 PD_0791 ChuZam "Kindae, Zambia" female
+224 PD_0792 ChuZam "Kindae, Zambia" female
+225 PD_0793 ChuZam "Kindae, Zambia" male
+226 PD_0794_BAB ChuZam "Kindae, Zambia" male

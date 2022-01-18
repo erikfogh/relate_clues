@@ -5,33 +5,28 @@ from groups import Group
 
 gwf = Workflow()
 
-path_to_relate = "/faststorage/home/eriks/relate-clues/relate_v1.1.2_x86_64_dynamic/"
-genetic_map = "/faststorage/home/eriks/relate-clues/data/recombination_maps/genetic_map_chr{}_combined_b37.txt"
-genetic_map_x = "/faststorage/home/eriks/relate-clues/data/recombination_maps/genetic_map_chrX_nonPAR_combined_b37.txt"
-path_to_prepared = "/faststorage/home/eriks/relate-clues/steps/"
-pop_information = {"CEU_kept_prepared/": ["1.25e-8", "32000"],
-                   "YRI_kept_prepared/": ["1.25e-8", "32000"],
-                   "CEU_GBR_YRI_kept_prepared/": ["1.25e-8", "32000"]}
+path_to_relate = "/home/eriks/baboondiversity/people/eriks/relate_clues_baboons/relate/relate_v1.1.7_x86_64_dynamic/"
+genetic_map = "/home/eriks/baboondiversity/data/PG_panu3_recombination_map/genetic_map_chr{}.txt"
+path_to_prepared = "steps/"
+pop_information = {"all_individuals_prepared/": ["0.57e-8", "16000"]}
+base_path = os.getcwd()
 # "CEU_kept_prepared/": ["1.25e-8", "6000"],, "all_individuals_prepared/": ["1.25e-8", "30000"]  # Due to the larger number of samples, jobs fail with out-of-time or memory.
 # for pop_information: key is name of folder in steps, values are mutation rate and effective population size
 # chromosomes = list(range(1, 23))+["X"]
-chromosomes = list(range(1, 23))+["X"]
+chromosomes = ["8"] # list(range(1, 23))+["X"]
+job_name = "chr8"
 l_d = []
 for chrom in chromosomes:
     d = {}
     d["number"] = chrom
-    if chrom == "X":
-        d["genetic_map"] = genetic_map_x
-    else:
-        d["genetic_map"] = genetic_map.format(chrom)
+    d["genetic_map"] = genetic_map.format(chrom)
     l_d.append(d)
 
-
-def full_relate(number, genetic_map, out_dir, pop_inf, prep_dir, relate_path):
-    haps = prep_dir+"chrom{}.haps.gz".format(number)
-    sample = prep_dir+"chrom{}.sample.gz".format(number)
-    annot = prep_dir+"chrom{}.annot".format(number)
-    dist = prep_dir+"chrom{}.dist.gz".format(number)
+def full_relate(number, genetic_map, out_dir, pop_inf, prep_dir, base_path, relate_path):
+    haps = base_path+"/"+prep_dir+"chrom{}.haps.gz".format(number)
+    sample = base_path+"/"+prep_dir+"chrom{}.sample.gz".format(number)
+    annot = base_path+"/"+prep_dir+"chrom{}.annot".format(number)
+    dist = base_path+"/"+prep_dir+"chrom{}.dist.gz".format(number)
     m = pop_inf[0]
     n = pop_inf[1]
     o = "chrom{}".format(number)
@@ -39,15 +34,16 @@ def full_relate(number, genetic_map, out_dir, pop_inf, prep_dir, relate_path):
     Relate = os.path.join(relate_path, "bin/Relate")
     outputs = [out_dir+o+".anc"]
     options = {
-        "cores": 10,
-        "memory": "30g",
-        "walltime": "12:00:00"
+        "cores": 7,
+        "memory": "28g",
+        "walltime": "24:00:00",
+        "account": "baboondiversity"
     }
     spec = """
     cd {}
-    {} --mode All -m {} -N {} --haps {} --sample {} --map {} -o {} --annot {} --dist {} --memory 23
-    """.format(out_dir, Relate, m, n, haps, sample, genetic_map, o, annot,  dist)
-    print(spec)
+    {} --mode All -m {} -N {} --haps {} --sample {} --map {} -o {} --annot {} --dist {} --memory 20
+    """.format(out_dir,
+        Relate, m, n, haps, sample, genetic_map, o, annot,  dist)
     return AnonymousTarget(inputs=inputs, outputs=outputs, options=options, spec=spec)
 
 
@@ -61,11 +57,12 @@ def estimate_pop_size(number, out_dir, pop_inf, prep_dir, relate_path):
     poplabels = prep_dir+"chrom{}.poplabels".format(number)
     options = {
         "cores": 15,
-        "memory": "30g",
-        "walltime": "24:00:00"
+        "memory": "60g",
+        "walltime": "24:00:00",
+        "account": "baboondiversity"
     }
     spec = """
-    {} -i {} -m {} --poplabels {} -o {} --threshold 0 --num_iter 5
+    {} -i {} -m {} --poplabels {} -o {} --threshold 0 --num_iter 5 --years_per_gen 11 --threads 14
     """.format(Relate, i[:-4], m, poplabels, o)
     return AnonymousTarget(inputs=inputs, outputs=outputs, options=options, spec=spec)
 
@@ -78,9 +75,10 @@ def detect_selection(number, in_dir, out_results, pop_inf, prep_dir, relate_path
     outputs = [o+".freq"]
     Relate = os.path.join(relate_path, "scripts/DetectSelection/DetectSelection.sh")
     options = {
-        "cores": 4,
-        "memory": "10g",
-        "walltime": "1:00:00"
+        "cores": 5,
+        "memory": "20g",
+        "walltime": "1:00:00",
+        "account": "baboondiversity"
     }
     spec = """
     {} -i {} -m {} -o {}
@@ -114,15 +112,15 @@ for pop in pop_information:
     os.makedirs(out_dir, exist_ok=True)
     os.makedirs(out_results, exist_ok=True)
     with Group(gwf, suffix=pop_name) as g:
-        relate = g.map(full_relate, l_d, name="relate", extra={
+        relate = g.map(full_relate, l_d, name=job_name+"relate", extra={
+            "out_dir": out_dir, "pop_inf": pop_information[pop],
+            "prep_dir": path_to_prepared+pop, "base_path": base_path, "relate_path": path_to_relate
+        })
+        popsize = g.map(estimate_pop_size, chromosomes, name=job_name+"popsize", extra={
             "out_dir": out_dir, "pop_inf": pop_information[pop],
             "prep_dir": path_to_prepared+pop, "relate_path": path_to_relate
         })
-        popsize = g.map(estimate_pop_size, chromosomes, name="popsize", extra={
-            "out_dir": out_dir, "pop_inf": pop_information[pop],
-            "prep_dir": path_to_prepared+pop, "relate_path": path_to_relate
-        })
-        g.map(detect_selection, chromosomes, name="detect_selection", extra={
+        g.map(detect_selection, chromosomes, name=job_name+"detect_selection", extra={
             "in_dir": out_dir, "out_results": out_results, "pop_inf": pop_information[pop],
             "prep_dir": path_to_prepared+pop, "relate_path": path_to_relate
         })
