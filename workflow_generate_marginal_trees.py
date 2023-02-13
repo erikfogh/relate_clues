@@ -4,13 +4,15 @@ from groups import Group
 
 gwf = Workflow()
 
-path_to_relate = "/home/eriks/baboondiversity/people/eriks/relate_clues_baboons/relate/relate_v1.1.7_x86_64_dynamic/"
+# 
+
+path_to_relate = "/home/eriks/baboondiversity/people/eriks/second_analysis_baboons/relate/relate_v1.1.7_x86_64_dynamic/"
 in_dir_prep = "steps/all_individuals_prepared/"
 in_dir_relate = "steps/all_individuals_relate/"
-poplabels = "data/pops/all_inds_8cluster.sample"
-out_path = "results/all_individuals_relate/"
-chromosome = "8"
-job_name = "chr8"
+poplabels = "data/pops/all_females_8cluster.sample"
+out_path = "results/all_females/"
+chromosome = "X"
+job_name = "chrX"
 
 
 def plot_trees(loc, name, in_dir_prep, in_dir_relate, poplabels, out_path, relate_path):
@@ -36,7 +38,26 @@ def plot_trees(loc, name, in_dir_prep, in_dir_relate, poplabels, out_path, relat
     return AnonymousTarget(inputs=inputs, outputs=outputs, options=options, spec=spec)
 
 
-locs = [17500000, 18000000, 18400022, 19000000] #[16623680, 16607974, 17000000, 66182731, 74015344, 110716419]
+locs = [137576566,
+ 135090332,
+ 137266109,
+ 135282236,
+ 135805937,
+ 136164193,
+ 135659139,
+ 136717983,
+ 136895491,
+ 136800825,
+ 136387268,
+ 136822194,
+ 136092096,
+ 136082477,
+ 136280537,
+ 138160118,
+ 136098298,
+ 135090234,
+ 137558239,
+ 136441507]# [17500000, 18000000, 18400022, 19000000] #[16623680, 16607974, 17000000, 66182731, 74015344, 110716419]
 
 
 os.makedirs(out_path, exist_ok=True)
