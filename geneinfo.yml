@@ -1,0 +1,14 @@
+name: geneinfo
+channels:
+  - gwforg
+  - bioconda
+  - conda-forge
+  - kaspermunch
+  - genomedk
+  - defaults
+dependencies:
+  - python=3.7
+  - numpy
+  - pandas
+  - geneinfo=3
+prefix: /home/eriks/miniconda3/envs/geneinfo
