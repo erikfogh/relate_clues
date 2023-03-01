@@ -137,3 +137,5 @@ relate_v1.1.2_x86_64_dynamic/
 relate_test/
 data/depth_chr_masks/
 relate/
+mosaic/
+ReLERNN/
