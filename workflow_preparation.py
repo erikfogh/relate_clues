@@ -1,31 +1,30 @@
 from gwf import Workflow, AnonymousTarget
-from gwf.workflow import collect
+# from gwf.workflow import collect
 import os
-import glob
 from groups import Group
 
 gwf = Workflow()
 
 # Associated variables and setup which can be added to environment variable instead.
-path_to_relate = "/home/eriks/baboondiversity/people/eriks/relate_clues_baboons/relate/relate_v1.1.7_x86_64_dynamic/"
+path_to_relate = "/home/eriks/baboondiversity/people/eriks/second_analysis_baboons/relate/relate_v1.1.7_x86_64_dynamic/"
 # path_to_vcfs = "/home/eriks/baboondiversity/data/PG_panu3_phased_chromosomes_4_7_2021/chr{}/chr{}.phased.rehead" # Autosomal
 path_to_vcfs = "/home/eriks/baboondiversity/data/PG_panu3_phased_chromosomes_4_7_2021/chr{}/chr{}.phased.females" # Females only
 path_to_ancestor = "/home/eriks/baboondiversity/data/ancestral_state_panu3_23_04_2021/papio_anubis_ancestor_{}.fa"
 # path_to_poplabels = "data/pops/all_inds.sample" # Autosomal
-path_to_poplabels = "data/pops/all_females.sample" # Females only, for X
+path_to_poplabels = "data/pops/all_females.sample"  # Females only, for X
 path_to_mask = "/home/eriks/baboondiversity/data/callability_panu3_26_04_2021/panu3.npmask.chr{}.fa"
 genetic_map = "/home/eriks/baboondiversity/data/PG_panu3_recombination_map/genetic_map_chr{}.txt"
-haps_sample_dir = "steps/haps_sample/"
+haps_sample_dir = "steps/haps_sample_female_only/"
 
 pop_files = "data/pops/"
 use_all = True
-pop_list = [] # glob.glob(pop_files + "*.txt")
+pop_list = []  # glob.glob(pop_files + "*.txt")
 
 if use_all is True:
-    pop_list.append("all_individuals")
+    pop_list.append("females_only")
 
 vcfs = []
-chromosomes = ["X"] # list(range(1, 23))+["X"]
+chromosomes = list(range(1, 21))+["X"]
 
 for chrom in chromosomes:
     vcf_path_and_name = os.path.join(path_to_vcfs.format(chrom, chrom))
@@ -36,7 +35,7 @@ for chrom in chromosomes:
 def vcf_to_haps(vcf_path, chrom, relate_path, output_dir):
     """Converts vcf files to haps/sample using the script from Relate """
     inputs = [vcf_path+".vcf.gz"]
-    haps_out = os.path.join(output_dir, "chrom{}.haps".format(chrom))
+    haps_out = os.path.join(output_dir, "chrom{}.haps". format(chrom))
     sample_out = os.path.join(output_dir, "chrom{}.sample".format(chrom))
     RelateFileFormats = os.path.join(relate_path, "bin/RelateFileFormats")
     outputs = {"haps": haps_out, "sample": sample_out}
@@ -47,8 +46,8 @@ def vcf_to_haps(vcf_path, chrom, relate_path, output_dir):
         "account": "baboondiversity"
     }
     spec = """
-    {} --mode ConvertFromVcf --haps {} --sample {} -i {}
-    """.format(RelateFileFormats, haps_out, sample_out, vcf_path)
+    {} --mode ConvertFromVcf --haps {} --sample {} -i {} --chr {}
+    """.format(RelateFileFormats, haps_out, sample_out, vcf_path, chrom)
     return AnonymousTarget(inputs=inputs, outputs=outputs, options=options, spec=spec)
 
 
@@ -75,7 +74,7 @@ def prepare_input(haps, sample, mask, ancestor, pop, output_dir, poplabels, rela
     {}  --haps {} --sample {} --mask {} --ancestor {}{} --poplabels {} -o {}
     cp {} {}
     """.format(PrepareInputFiles, haps, sample, n_mask, ancestor_in, remove_ids, poplabels, destination_name,
-    poplabels, destination_name+".poplabels")
+               poplabels, destination_name+".poplabels")
     return AnonymousTarget(inputs=inputs, outputs=outputs, options=options, spec=spec)
 
 
