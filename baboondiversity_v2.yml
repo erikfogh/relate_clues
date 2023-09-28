@@ -1,37 +1,24 @@
 name: baboondiversity
 channels:
   - kaspermunch
-  - etetoolkit
   - conda-forge
   - gwforg
   - bioconda
   - genomedk
   - defaults
 dependencies:
-  - libgcc-ng
-  - zlib
+# ete3 is an issue, install it independently afterwards.
   - bedtools
-  - glib
-  - hdf4
-  - hdf5
-  - python
-  - curl
-  - htslib
-  - pkginfo
-  - postgresql
-  - dask-core
+  - python>=3.7
   - numpy
   - samtools
-  - slurm-jupyter
   - svgwrite
   - biopython
   - h5py
   - numcodecs
   - numexpr
-  - pandas
+  - pandas>=2.0
   - scipy
-  - setuptools
-  - shapely
   - cython
   - ete3
   - gwf
@@ -39,7 +26,6 @@ dependencies:
   - jupyter_client
   - matplotlib-base
   - pip
-  - plotly
   - pybedtools
   - zarr
   - conda-verify
@@ -50,15 +36,12 @@ dependencies:
   - statsmodels
   - tskit
   - dask
-  - genominterv
   - msprime
   - seaborn
   - ipykernel
-  - cartopy
   - jupyter_console
   - mygene
   - scikit-allel
-  - scikit-bio
   - ipywidgets
   - jupyterlab
   - ipympl
@@ -68,6 +51,7 @@ dependencies:
   - openpyxl
   - umap-learn
   - rfmix
+  - rpy2
   - bcftools
   - geneinfo
 prefix: /home/eriks/miniconda3/envs/baboondiversity

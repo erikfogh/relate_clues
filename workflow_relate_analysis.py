@@ -3,11 +3,14 @@ import os
 import pandas as pd
 from groups import Group
 
+# Uses the baboondiversity environment:
+# tskit and argparse in addition to pandas
+
 gwf = Workflow()
 poplabels_path = "data/pops/all_females_8cluster.sample"
 poplabels = pd.read_csv(poplabels_path, sep=" ",
-                        names=["i", "ID", "POP", "GROUP", "SEX"], header=0)
-tree_path = "steps/all_individuals_relate/chromX_tskit.trees"
+                        names=["ID", "POP", "GROUP", "SEX"], header=0)
+tree_path = "steps/All_Samples_relate/chromX_tskit.trees"
 out_path = "steps/relate_coal_ordering/"
 chromosomes = ["X"]  # list(range(1, 23))+["X"]
 job_name = "chrX"
@@ -27,7 +30,7 @@ def relate_coal_ordering(ID, tree_path, poplabels_path, out_path):
     spec = """
     python scripts/relate_coal_ordering.py -t {} -i {} -p {} -o {}
     """.format(tree_path, ID, poplabels_path, out_path)
-    print(spec)
+    # print(spec)
     return AnonymousTarget(inputs=inputs, outputs=outputs, options=options, spec=spec)
 
 

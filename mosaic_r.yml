@@ -1,0 +1,16 @@
+name: mosaic_r
+channels:
+  - gwforg
+  - bioconda
+  - genomedk
+  - conda-forge
+  - defaults
+dependencies:
+  - r-argparser
+  - r-essentials
+  - r-base
+  - notedown
+  - r-devtools
+  - bcftools>=1.17
+  - gwf
+prefix: /home/eriks/miniconda3/envs/mosaic_r

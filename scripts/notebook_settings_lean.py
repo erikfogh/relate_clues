@@ -3,8 +3,8 @@ import sys, os, re
 import numpy as np
 import pandas as pd
 
-from IPython.display import set_matplotlib_formats
-set_matplotlib_formats('retina', 'png')
+#from IPython.display import set_matplotlib_formats
+#set_matplotlib_formats('retina', 'png')
 import matplotlib
 import matplotlib.pyplot as plt
 from matplotlib.colors import ListedColormap

@@ -10,6 +10,7 @@ parser.add_argument("-i", help="focal ID")
 parser.add_argument("-p", help="poplabel path")
 parser.add_argument("-o", help="name and path to write the finished file")
 
+
 # Function for coal ordering
 def coalescence_ordering(tree, IDs, sample_counts):
     df_list = []
@@ -60,10 +61,10 @@ out_path = args.o
 # Loading data
 ts = tskit.load(tree)
 poplabels = pd.read_csv(poplabel_path, sep=" ",
-                        names=["i", "ID", "POP", "GROUP", "SEX"], header=0)
+                        names=["ID", "POP", "GROUP", "SEX"], header=0)
 
 # Setup based on poplabels
-ID_t1 = poplabels.loc[poplabels.ID == focal_ID].index.values[0]
+ID_t1 = poplabels.loc[poplabels.ID == focal_ID].index.values[0]*2
 ID_list = [ID_t1, ID_t1+1]
 sample_counts = poplabels["GROUP"].value_counts()*2
 i_mapping = {}

@@ -1,0 +1,16 @@
+name: recomb
+channels:
+  - conda-forge
+  - gwforg
+  - bioconda
+  - genomedk
+  - numba
+  - defaults
+dependencies:
+  - msprime
+  - bcftools
+  - scikit-allel
+  - gwf
+  - numba
+  - cyvcf2
+prefix: /home/eriks/miniconda3/envs/recomb

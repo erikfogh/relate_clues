@@ -1,0 +1,31 @@
+name: relate_clues
+channels:
+  - gwforg
+  - conda-forge
+  - bioconda
+  - genomedk
+  - defaults
+dependencies:
+  - libgcc-ng
+  - samtools
+  - pip
+  - jupyterlab
+  - tabix
+  - matplotlib
+  - pyfaidx
+  - ipympl
+  - gwf
+  - biopython
+  - numpy
+  - jupyter
+  - ipyparallel
+  - seaborn
+  - pylint
+  - vcftools
+  - pandas
+  - scikit-allel
+  - libgcc
+  - bcftools>=1.17
+variables:
+  LD_LIBRARY_PATH: :/home/eriks/miniconda3/envs/relate/lib
+prefix: /home/eriks/miniconda3/envs/relate_clues
