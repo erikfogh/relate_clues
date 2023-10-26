@@ -1,66 +1,68 @@
 ID POP GROUP SEX
-Sci_16066 "Eastern Yellow" "Eastern Yellow" female
-Sci_16098 "Eastern Yellow" "Eastern Yellow" female
-Sci_30877 "Kenyan Olive" "Kenyan Olive" male
-Sci_30977 "Kenyan Olive" "Kenyan Olive" female
+Sci_16066 Eastern_Yellow Eastern_Yellow female
+Sci_16098 Eastern_Yellow Eastern_Yellow female
+Sci_30877 Kenyan_Olive Kenyan_Olive male
+Sci_30977 Kenyan_Olive Kenyan_Olive female
 Sci_34449 Kindae Kindae female
 Sci_34474 Kindae Kindae female
+Sci_38168 Gelada Gelada male
 Sci_97074 Hamadryas Hamadryas female
 Sci_97124 Hamadryas Hamadryas male
-PD_0199 "Tanzanian Olive" "Tanzanian Olive" female
-PD_0200 "Tanzanian Olive" "Tanzanian Olive" female
-PD_0201 "Tanzanian Olive" "Tanzanian Olive" male
-PD_0202 "Tanzanian Olive" "Tanzanian Olive" male
-PD_0203 "Tanzanian Olive" "Tanzanian Olive" female
-PD_0204 "Tanzanian Olive" "Tanzanian Olive" male
-PD_0205 "Tanzanian Olive" "Tanzanian Olive" female
-PD_0206 "Tanzanian Olive" "Tanzanian Olive" female
-PD_0207 "Tanzanian Olive" "Tanzanian Olive" male
-PD_0208 "Tanzanian Olive" "Tanzanian Olive" female
-PD_0209 "Tanzanian Olive" "Tanzanian Olive" female
-PD_0210 "Tanzanian Olive" "Tanzanian Olive" female
-PD_0211 "Tanzanian Olive" "Tanzanian Olive" female
-PD_0212 "Tanzanian Olive" "Tanzanian Olive" female
-PD_0213 "Eastern Yellow" "Eastern Yellow" female
-PD_0214 "Eastern Yellow" "Eastern Yellow" female
-PD_0215 "Eastern Yellow" "Eastern Yellow" male
-PD_0216 "Eastern Yellow" "Eastern Yellow" female
-PD_0217 "Eastern Yellow" "Eastern Yellow" male
-PD_0218 "Tanzanian Olive" "Tanzanian Olive" male
-PD_0219 "Tanzanian Olive" "Tanzanian Olive" female
-PD_0220 "Tanzanian Olive" "Tanzanian Olive" male
-PD_0221 "Tanzanian Olive" "Tanzanian Olive" female
-PD_0222 "Tanzanian Olive" "Tanzanian Olive" female
-PD_0223 "Eastern Yellow" "Eastern Yellow" male
-PD_0224 "Eastern Yellow" "Eastern Yellow" female
-PD_0225 "Eastern Yellow" "Eastern Yellow" female
-PD_0226 "Eastern Yellow" "Eastern Yellow" female
-PD_0227 "Eastern Yellow" "Eastern Yellow" male
-PD_0228 "Western Yellow" "Western Yellow" male
-PD_0229 "Western Yellow" "Western Yellow" male
-PD_0230 "Western Yellow" "Western Yellow" male
-PD_0231 "Western Yellow" "Western Yellow" male
-PD_0232 "Western Yellow" "Western Yellow" female
-PD_0233 "Western Yellow" "Western Yellow" male
-PD_0234 "Western Yellow" "Western Yellow" male
-PD_0235 "Eastern Yellow" "Eastern Yellow" male
-PD_0236 "Eastern Yellow" "Eastern Yellow" male
-PD_0237 "Eastern Yellow" "Eastern Yellow" female
-PD_0238 "Tanzanian Olive" "Tanzanian Olive" female
-PD_0239 "Tanzanian Olive" "Tanzanian Olive" female
-PD_0240 "Tanzanian Olive" "Tanzanian Olive" female
-PD_0241 "Tanzanian Olive" "Tanzanian Olive" female
-PD_0242 "Tanzanian Olive" "Tanzanian Olive" male
-PD_0243 "Tanzanian Olive" "Tanzanian Olive" female
-PD_0244 "Tanzanian Olive" "Tanzanian Olive" female
-PD_0265 "Tanzanian Olive" "Tanzanian Olive" female
-PD_0266 "Tanzanian Olive" "Tanzanian Olive" male
-PD_0267 "Tanzanian Olive" "Tanzanian Olive" male
-PD_0268 "Eastern Yellow" "Eastern Yellow" male
-PD_0269 "Eastern Yellow" "Eastern Yellow" male
-PD_0270 "Eastern Yellow" "Eastern Yellow" female
-PD_0271 "Eastern Yellow" "Eastern Yellow" female
-PD_0272 "Eastern Yellow" "Eastern Yellow" female
+PD_0067 Gelada Gelada male
+PD_0199 Tanzanian_Olive Tanzanian_Olive female
+PD_0200 Tanzanian_Olive Tanzanian_Olive female
+PD_0201 Tanzanian_Olive Tanzanian_Olive male
+PD_0202 Tanzanian_Olive Tanzanian_Olive male
+PD_0203 Tanzanian_Olive Tanzanian_Olive female
+PD_0204 Tanzanian_Olive Tanzanian_Olive male
+PD_0205 Tanzanian_Olive Tanzanian_Olive female
+PD_0206 Tanzanian_Olive Tanzanian_Olive female
+PD_0207 Tanzanian_Olive Tanzanian_Olive male
+PD_0208 Tanzanian_Olive Tanzanian_Olive female
+PD_0209 Tanzanian_Olive Tanzanian_Olive female
+PD_0210 Tanzanian_Olive Tanzanian_Olive female
+PD_0211 Tanzanian_Olive Tanzanian_Olive female
+PD_0212 Tanzanian_Olive Tanzanian_Olive female
+PD_0213 Eastern_Yellow Eastern_Yellow female
+PD_0214 Eastern_Yellow Eastern_Yellow female
+PD_0215 Eastern_Yellow Eastern_Yellow male
+PD_0216 Eastern_Yellow Eastern_Yellow female
+PD_0217 Eastern_Yellow Eastern_Yellow male
+PD_0218 Tanzanian_Olive Tanzanian_Olive male
+PD_0219 Tanzanian_Olive Tanzanian_Olive female
+PD_0220 Tanzanian_Olive Tanzanian_Olive male
+PD_0221 Tanzanian_Olive Tanzanian_Olive female
+PD_0222 Tanzanian_Olive Tanzanian_Olive female
+PD_0223 Eastern_Yellow Eastern_Yellow male
+PD_0224 Eastern_Yellow Eastern_Yellow female
+PD_0225 Eastern_Yellow Eastern_Yellow female
+PD_0226 Eastern_Yellow Eastern_Yellow female
+PD_0227 Eastern_Yellow Eastern_Yellow male
+PD_0228 Western_Yellow Western_Yellow male
+PD_0229 Western_Yellow Western_Yellow male
+PD_0230 Western_Yellow Western_Yellow male
+PD_0231 Western_Yellow Western_Yellow male
+PD_0232 Western_Yellow Western_Yellow female
+PD_0233 Western_Yellow Western_Yellow male
+PD_0234 Western_Yellow Western_Yellow male
+PD_0235 Eastern_Yellow Eastern_Yellow male
+PD_0236 Eastern_Yellow Eastern_Yellow male
+PD_0237 Eastern_Yellow Eastern_Yellow female
+PD_0238 Tanzanian_Olive Tanzanian_Olive female
+PD_0239 Tanzanian_Olive Tanzanian_Olive female
+PD_0240 Tanzanian_Olive Tanzanian_Olive female
+PD_0241 Tanzanian_Olive Tanzanian_Olive female
+PD_0242 Tanzanian_Olive Tanzanian_Olive male
+PD_0243 Tanzanian_Olive Tanzanian_Olive female
+PD_0244 Tanzanian_Olive Tanzanian_Olive female
+PD_0265 Tanzanian_Olive Tanzanian_Olive female
+PD_0266 Tanzanian_Olive Tanzanian_Olive male
+PD_0267 Tanzanian_Olive Tanzanian_Olive male
+PD_0268 Eastern_Yellow Eastern_Yellow male
+PD_0269 Eastern_Yellow Eastern_Yellow male
+PD_0270 Eastern_Yellow Eastern_Yellow female
+PD_0271 Eastern_Yellow Eastern_Yellow female
+PD_0272 Eastern_Yellow Eastern_Yellow female
 PD_0390 Papio Papio female
 PD_0391 Papio Papio female
 PD_0392 Papio Papio female
@@ -73,54 +75,54 @@ PD_0398 Papio Papio male
 PD_0399 Papio Papio male
 PD_0400 Papio Papio male
 PD_0401 Papio Papio male
-PD_0492 "Tanzanian Olive" "Tanzanian Olive" female
-PD_0493 "Tanzanian Olive" "Tanzanian Olive" male
-PD_0494 "Tanzanian Olive" "Tanzanian Olive" male
-PD_0495 "Tanzanian Olive" "Tanzanian Olive" female
-PD_0496 "Tanzanian Olive" "Tanzanian Olive" male
-PD_0497 "Tanzanian Olive" "Tanzanian Olive" male
-PD_0498 "Tanzanian Olive" "Tanzanian Olive" male
-PD_0499 "Tanzanian Olive" "Tanzanian Olive" female
-PD_0500 "Tanzanian Olive" "Tanzanian Olive" female
-PD_0501 "Tanzanian Olive" "Tanzanian Olive" female
-PD_0502 "Tanzanian Olive" "Tanzanian Olive" male
-PD_0503 "Eastern Yellow" "Eastern Yellow" female
-PD_0504 "Tanzanian Olive" "Tanzanian Olive" male
-PD_0505 "Tanzanian Olive" "Tanzanian Olive" male
-PD_0506 "Tanzanian Olive" "Tanzanian Olive" female
-PD_0507 "Tanzanian Olive" "Tanzanian Olive" female
-PD_0508 "Tanzanian Olive" "Tanzanian Olive" male
-PD_0509 "Tanzanian Olive" "Tanzanian Olive" female
-PD_0637 "Eastern Yellow" "Eastern Yellow" male
-PD_0641 "Tanzanian Olive" "Tanzanian Olive" female
-PD_0642 "Tanzanian Olive" "Tanzanian Olive" male
-PD_0649 "Tanzanian Olive" "Tanzanian Olive" female
-PD_0650 "Tanzanian Olive" "Tanzanian Olive" male
-PD_0651 "Tanzanian Olive" "Tanzanian Olive" female
-PD_0652 "Tanzanian Olive" "Tanzanian Olive" female
-PD_0653 "Tanzanian Olive" "Tanzanian Olive" female
-PD_0654 "Tanzanian Olive" "Tanzanian Olive" male
-PD_0658 "Western Yellow" "Western Yellow" male
-PD_0659 "Western Yellow" "Western Yellow" female
-PD_0662 "Western Yellow" "Western Yellow" female
-PD_0674 "Tanzanian Olive" "Tanzanian Olive" female
-PD_0675 "Tanzanian Olive" "Tanzanian Olive" female
-PD_0676 "Tanzanian Olive" "Tanzanian Olive" female
-PD_0677 "Tanzanian Olive" "Tanzanian Olive" female
-PD_0678 "Tanzanian Olive" "Tanzanian Olive" female
-PD_0679 "Tanzanian Olive" "Tanzanian Olive" male
-PD_0680 "Tanzanian Olive" "Tanzanian Olive" female
-PD_0681 "Tanzanian Olive" "Tanzanian Olive" male
-PD_0682 "Tanzanian Olive" "Tanzanian Olive" female
-PD_0683 "Tanzanian Olive" "Tanzanian Olive" female
-PD_0684 "Tanzanian Olive" "Tanzanian Olive" male
-PD_0685 "Tanzanian Olive" "Tanzanian Olive" female
-PD_0686 "Tanzanian Olive" "Tanzanian Olive" female
-PD_0687 "Eastern Yellow" "Eastern Yellow" male
-PD_0688 "Eastern Yellow" "Eastern Yellow" male
-PD_0689 "Eastern Yellow" "Eastern Yellow" male
-PD_0690 "Eastern Yellow" "Eastern Yellow" male
-PD_0691 "Eastern Yellow" "Eastern Yellow" male
+PD_0492 Tanzanian_Olive Tanzanian_Olive female
+PD_0493 Tanzanian_Olive Tanzanian_Olive male
+PD_0494 Tanzanian_Olive Tanzanian_Olive male
+PD_0495 Tanzanian_Olive Tanzanian_Olive female
+PD_0496 Tanzanian_Olive Tanzanian_Olive male
+PD_0497 Tanzanian_Olive Tanzanian_Olive male
+PD_0498 Tanzanian_Olive Tanzanian_Olive male
+PD_0499 Tanzanian_Olive Tanzanian_Olive female
+PD_0500 Tanzanian_Olive Tanzanian_Olive female
+PD_0501 Tanzanian_Olive Tanzanian_Olive female
+PD_0502 Tanzanian_Olive Tanzanian_Olive male
+PD_0503 Eastern_Yellow Eastern_Yellow female
+PD_0504 Tanzanian_Olive Tanzanian_Olive male
+PD_0505 Tanzanian_Olive Tanzanian_Olive male
+PD_0506 Tanzanian_Olive Tanzanian_Olive female
+PD_0507 Tanzanian_Olive Tanzanian_Olive female
+PD_0508 Tanzanian_Olive Tanzanian_Olive male
+PD_0509 Tanzanian_Olive Tanzanian_Olive female
+PD_0637 Eastern_Yellow Eastern_Yellow male
+PD_0641 Tanzanian_Olive Tanzanian_Olive female
+PD_0642 Tanzanian_Olive Tanzanian_Olive male
+PD_0649 Tanzanian_Olive Tanzanian_Olive female
+PD_0650 Tanzanian_Olive Tanzanian_Olive male
+PD_0651 Tanzanian_Olive Tanzanian_Olive female
+PD_0652 Tanzanian_Olive Tanzanian_Olive female
+PD_0653 Tanzanian_Olive Tanzanian_Olive female
+PD_0654 Tanzanian_Olive Tanzanian_Olive male
+PD_0658 Western_Yellow Western_Yellow male
+PD_0659 Western_Yellow Western_Yellow female
+PD_0662 Western_Yellow Western_Yellow female
+PD_0674 Tanzanian_Olive Tanzanian_Olive female
+PD_0675 Tanzanian_Olive Tanzanian_Olive female
+PD_0676 Tanzanian_Olive Tanzanian_Olive female
+PD_0677 Tanzanian_Olive Tanzanian_Olive female
+PD_0678 Tanzanian_Olive Tanzanian_Olive female
+PD_0679 Tanzanian_Olive Tanzanian_Olive male
+PD_0680 Tanzanian_Olive Tanzanian_Olive female
+PD_0681 Tanzanian_Olive Tanzanian_Olive male
+PD_0682 Tanzanian_Olive Tanzanian_Olive female
+PD_0683 Tanzanian_Olive Tanzanian_Olive female
+PD_0684 Tanzanian_Olive Tanzanian_Olive male
+PD_0685 Tanzanian_Olive Tanzanian_Olive female
+PD_0686 Tanzanian_Olive Tanzanian_Olive female
+PD_0687 Eastern_Yellow Eastern_Yellow male
+PD_0688 Eastern_Yellow Eastern_Yellow male
+PD_0689 Eastern_Yellow Eastern_Yellow male
+PD_0690 Eastern_Yellow Eastern_Yellow male
+PD_0691 Eastern_Yellow Eastern_Yellow male
 PD_0692 Chacma Chacma male
 PD_0693 Chacma Chacma female
 PD_0694 Chacma Chacma female
@@ -149,62 +151,62 @@ PD_0716 Hamadryas Hamadryas male
 PD_0717 Hamadryas Hamadryas male
 PD_0718 Hamadryas Hamadryas male
 PD_0719 Hamadryas Hamadryas male
-PD_0720 "Ethiopian Olive" "Ethiopian Olive" male
-PD_0721 "Ethiopian Olive" "Ethiopian Olive" female
-PD_0722 "Ethiopian Olive" "Ethiopian Olive" male
-PD_0723 "Ethiopian Olive" "Ethiopian Olive" male
-PD_0724 "Ethiopian Olive" "Ethiopian Olive" female
-PD_0725 "Ethiopian Olive" "Ethiopian Olive" male
-PD_0726 "Ethiopian Olive" "Ethiopian Olive" female
-PD_0727 "Ethiopian Olive" "Ethiopian Olive" male
-PD_0728 "Ethiopian Olive" "Ethiopian Olive" male
-PD_0729 "Ethiopian Olive" "Ethiopian Olive" male
-PD_0730 "Ethiopian Olive" "Ethiopian Olive" female
-PD_0731 "Ethiopian Olive" "Ethiopian Olive" male
-PD_0732 "Ethiopian Olive" "Ethiopian Olive" male
-PD_0733 "Ethiopian Olive" "Ethiopian Olive" male
-PD_0734 "Ethiopian Olive" "Ethiopian Olive" male
-PD_0735 "Ethiopian Olive" "Ethiopian Olive" male
-PD_0736 "Ethiopian Olive" "Ethiopian Olive" female
-PD_0737 "Ethiopian Olive" "Ethiopian Olive" female
-PD_0738 "Ethiopian Olive" "Ethiopian Olive" female
-PD_0739 "Ethiopian Olive" "Ethiopian Olive" male
-PD_0740 "Ethiopian Olive" "Ethiopian Olive" male
-PD_0741 "Ethiopian Olive" "Ethiopian Olive" male
-PD_0742 "Ethiopian Olive" "Ethiopian Olive" male
-PD_0743 "Ethiopian Olive" "Ethiopian Olive" male
-PD_0744 "Ethiopian Olive" "Ethiopian Olive" female
-PD_0745 "Eastern Yellow" "Eastern Yellow" female
-PD_0746 "Eastern Yellow" "Eastern Yellow" male
-PD_0747 "Eastern Yellow" "Eastern Yellow" male
-PD_0748 "Eastern Yellow" "Eastern Yellow" male
+PD_0720 Ethiopian_Olive Ethiopian_Olive male
+PD_0721 Ethiopian_Olive Ethiopian_Olive female
+PD_0722 Ethiopian_Olive Ethiopian_Olive male
+PD_0723 Ethiopian_Olive Ethiopian_Olive male
+PD_0724 Ethiopian_Olive Ethiopian_Olive female
+PD_0725 Ethiopian_Olive Ethiopian_Olive male
+PD_0726 Ethiopian_Olive Ethiopian_Olive female
+PD_0727 Ethiopian_Olive Ethiopian_Olive male
+PD_0728 Ethiopian_Olive Ethiopian_Olive male
+PD_0729 Ethiopian_Olive Ethiopian_Olive male
+PD_0730 Ethiopian_Olive Ethiopian_Olive female
+PD_0731 Ethiopian_Olive Ethiopian_Olive male
+PD_0732 Ethiopian_Olive Ethiopian_Olive male
+PD_0733 Ethiopian_Olive Ethiopian_Olive male
+PD_0734 Ethiopian_Olive Ethiopian_Olive male
+PD_0735 Ethiopian_Olive Ethiopian_Olive male
+PD_0736 Ethiopian_Olive Ethiopian_Olive female
+PD_0737 Ethiopian_Olive Ethiopian_Olive female
+PD_0738 Ethiopian_Olive Ethiopian_Olive female
+PD_0739 Ethiopian_Olive Ethiopian_Olive male
+PD_0740 Ethiopian_Olive Ethiopian_Olive male
+PD_0741 Ethiopian_Olive Ethiopian_Olive male
+PD_0742 Ethiopian_Olive Ethiopian_Olive male
+PD_0743 Ethiopian_Olive Ethiopian_Olive male
+PD_0744 Ethiopian_Olive Ethiopian_Olive female
+PD_0745 Eastern_Yellow Eastern_Yellow female
+PD_0746 Eastern_Yellow Eastern_Yellow male
+PD_0747 Eastern_Yellow Eastern_Yellow male
+PD_0748 Eastern_Yellow Eastern_Yellow male
 PD_0749 Kindae Kindae male
 PD_0750 Kindae Kindae male
 PD_0751 Kindae Kindae male
-PD_0752 "Eastern Yellow" "Eastern Yellow" male
-PD_0753 "Eastern Yellow" "Eastern Yellow" male
-PD_0754 "Eastern Yellow" "Eastern Yellow" female
-PD_0755 "Eastern Yellow" "Eastern Yellow" male
-PD_0756 "Eastern Yellow" "Eastern Yellow" male
-PD_0757 "Eastern Yellow" "Eastern Yellow" male
+PD_0752 Eastern_Yellow Eastern_Yellow male
+PD_0753 Eastern_Yellow Eastern_Yellow male
+PD_0754 Eastern_Yellow Eastern_Yellow female
+PD_0755 Eastern_Yellow Eastern_Yellow male
+PD_0756 Eastern_Yellow Eastern_Yellow male
+PD_0757 Eastern_Yellow Eastern_Yellow male
 PD_0758 Kindae Kindae male
 PD_0759 Kindae Kindae male
 PD_0760 Kindae Kindae female
-PD_0761 "Eastern Yellow" "Eastern Yellow" male
-PD_0762 "Eastern Yellow" "Eastern Yellow" male
-PD_0763 "Eastern Yellow" "Eastern Yellow" male
-PD_0764 "Eastern Yellow" "Eastern Yellow" male
-PD_0765 "Eastern Yellow" "Eastern Yellow" female
-PD_0766 "Eastern Yellow" "Eastern Yellow" male
-PD_0767 "Eastern Yellow" "Eastern Yellow" male
-PD_0768 "Eastern Yellow" "Eastern Yellow" male
-PD_0769 "Eastern Yellow" "Eastern Yellow" female
-PD_0770 "Eastern Yellow" "Eastern Yellow" female
-PD_0771 "Eastern Yellow" "Eastern Yellow" male
-PD_0772 "Eastern Yellow" "Eastern Yellow" female
-PD_0773 "Eastern Yellow" "Eastern Yellow" female
-PD_0774 "Eastern Yellow" "Eastern Yellow" female
-PD_0775 "Eastern Yellow" "Eastern Yellow" male
+PD_0761 Eastern_Yellow Eastern_Yellow male
+PD_0762 Eastern_Yellow Eastern_Yellow male
+PD_0763 Eastern_Yellow Eastern_Yellow male
+PD_0764 Eastern_Yellow Eastern_Yellow male
+PD_0765 Eastern_Yellow Eastern_Yellow female
+PD_0766 Eastern_Yellow Eastern_Yellow male
+PD_0767 Eastern_Yellow Eastern_Yellow male
+PD_0768 Eastern_Yellow Eastern_Yellow male
+PD_0769 Eastern_Yellow Eastern_Yellow female
+PD_0770 Eastern_Yellow Eastern_Yellow female
+PD_0771 Eastern_Yellow Eastern_Yellow male
+PD_0772 Eastern_Yellow Eastern_Yellow female
+PD_0773 Eastern_Yellow Eastern_Yellow female
+PD_0774 Eastern_Yellow Eastern_Yellow female
+PD_0775 Eastern_Yellow Eastern_Yellow male
 PD_0776 Kindae Kindae male
 PD_0777 Kindae Kindae male
 PD_0778 Kindae Kindae male
